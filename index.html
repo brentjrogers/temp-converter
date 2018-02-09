@@ -14,14 +14,21 @@ html,body,form {
 input {
   background: transparent;
 }
+label {
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
 #cb {
   display: none;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+.material-icons {
+  color: #1b9af7;
 }
 </style>
 
 </head>
 <body>
+<i class="material-icons">ac_unit</i>
+<br />
 <h2>temperature<br />converter</h2>
 <form name="converter">
 Celsius: <input type="text" name="celsius" onChange=""><br />
